@@ -30,6 +30,8 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+質問への回答後も、空行を入力するまで同じ会話の履歴を保って続けて質問できます。各回答の応答時間と入出力トークン数も表示します。
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
