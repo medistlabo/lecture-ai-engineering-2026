@@ -9,9 +9,18 @@
 ## 宿題
 
 - 取り組んだレベル：基礎
-- やったこと：
+- やったこと：モデルを変えて出力の確認を行った。
 - 結果：
-- 気づき・疑問：
+[model] gemini-3.5-flash-lite
+[usage] input tokens: 7, output tokens: 600
+[usage] input tokens: 7, output tokens: 619
+[usage] input tokens: 7, output tokens: 619
+[model] gemini-3.5-flash
+[usage] input tokens: 7, output tokens: 764
+[usage] input tokens: 7, output tokens: 708
+[usage] input tokens: 7, output tokens: 820
+
+- 気づき・疑問：どちらのモデルもインプットで認識するトークン数は同じだが、アウトプットでのトークン数が異なり、性能の高いモデルを用いると出力トークン数が増加し変動幅も大きくなった。
 
 - 取り組んだレベル：実装
 - やったこと：
